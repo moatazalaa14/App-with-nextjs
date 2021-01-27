@@ -7,11 +7,30 @@ export default function Home() {
   return (
     <Layout>
   
-      <h1>Hello from here</h1>
-      <p>My name is Moataz</p>
+      <h1>I'M Moataz</h1>
+      
       <Link href="/about">
-        More about me
+      <p>More about me</p>
       </Link>
+      <style jsx>
+        {
+          `
+            h1{
+              color:white;
+              text-align:center;
+              margin-top:16rem;
+            }
+
+            p {
+              color:white;
+              text-align:center;
+            }
+            p:hover{
+              color:#e94560;
+            }
+          `
+        }
+      </style>
     </Layout>
   )
 }
